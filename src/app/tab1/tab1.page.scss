@@ -1,0 +1,23 @@
+ion-content {
+  --background: white;
+
+  ion-list {
+    background: linear-gradient(to bottom, #52cbd9, #52c0d9, #0a4273);
+    border-radius: 20px;
+    max-width: 500px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-25%, -50%);
+
+    ion-item {
+      --background: transparent;
+    }
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
